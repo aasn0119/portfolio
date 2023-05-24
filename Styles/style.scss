@@ -69,7 +69,7 @@ section {
     position: absolute;
     left: 0;
     top: 0;
-    padding: 1rem 11rem;
+    padding: 1rem 10rem;
 }
 
 .section {
@@ -115,7 +115,7 @@ section {
 
 .controls {
     position: fixed;
-    top: 50%;
+    top: 57%;
     right: 3%;
     z-index: 10;
     display: flex;
@@ -134,8 +134,8 @@ section {
         padding: 1rem;
         cursor: pointer;
         background-color: var(--color-grey-4);
-        width: 55px;
-        height: 55px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -143,7 +143,7 @@ section {
         margin: .7rem 0;
         box-shadow: var(--box-shadow-1);
         i {
-            font-size: 1.2rem;
+            font-size: 1rem;
             color: var(--color-grey-2);
             pointer-events: none;
         }
@@ -155,8 +155,8 @@ section {
     right: 3%;
     cursor: pointer;
     background-color: var(--color-grey-4);
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -221,7 +221,7 @@ section {
         justify-content: center;
         padding-right: 13.5rem;
         .name {
-            font-size: 2.7rem;
+            font-size: 2.1rem;
             span {
                 color: var(--color-secondary);
             }
@@ -230,6 +230,7 @@ section {
             margin: 1.5rem 0;
             line-height: 2rem;
             text-align: justify;
+            font-size: 1rem;
         }
     }
 }
@@ -241,10 +242,12 @@ section {
     padding-top: 3.5rem;
     padding-bottom: 5rem;
     .right-about {
+        width: 500px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
         .about-item {
+            padding: 10px;
             border: 1px solid var(--color-grey-5);
             border-radius: 5px;
             transition: var(--transition);
@@ -257,7 +260,7 @@ section {
                 border: 1px solid var(--color-secondary);
             } 
             .abt-text {
-                padding: 1.5rem;
+                padding: 12px;
                 display: flex;
                 flex-direction: column;
                 .large-text {
@@ -286,6 +289,7 @@ section {
         }
     }
     .left-about {
+        width: 500px;
         padding-right: 2rem;
         p {
             line-height: 2rem;
@@ -378,6 +382,7 @@ section {
 /*          Timeline            */
 
 .timeline {
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
@@ -413,7 +418,7 @@ section {
         h5 {
             padding: 1rem 0;
             text-transform: uppercase;
-            font-size: 1.3rem;
+            font-size: 1.1rem;
             font-weight: 600;
             span {
                 color: var(--color-grey-2);
@@ -422,6 +427,7 @@ section {
             }
         }
         p {
+            font-size: 1rem;
             color: var(--color-grey-2);
         }
     }
@@ -435,6 +441,7 @@ section {
 }
 
 .portfolios {
+    width: 95%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
@@ -443,7 +450,7 @@ section {
         position: relative;
         img {
             width: 100%;
-            height: 300px;
+            height: 200px;
             border-radius: 15px;
             object-fit: cover;
         }
@@ -508,9 +515,10 @@ section {
 /*          Blogs Section           */
 
 .blogs {
+    width: 99%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem;
+    grid-gap: 2rem;
     margin-top: 4rem;
     .blog {
         position: relative;
@@ -518,7 +526,7 @@ section {
         border-radius: 5px;
         box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
         transition: var(--transition);
-        width: 85%;
+        width: 90%;
         &:hover {
             box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.3);
             transition: var(--transition);
@@ -531,7 +539,7 @@ section {
         }
         img {
             width: 100%;
-            height: 250px;
+            height: 200px;
             object-fit: cover;
             border-top-right-radius: 5px;
             border-top-left-radius: 5px;
@@ -539,11 +547,11 @@ section {
             transition: var(--transition);
         }
         .blog-text {
-            margin-top: -7px;
+            margin-top: -5px;
             padding: 1.1rem;
             border-top: 8px solid var(--color-secondary);
             h4 {
-                font-size: 1.5rem;
+                font-size: 1.3rem;
                 margin-bottom: 0.7rem;
                 cursor: pointer;
                 transition: var(--transition);
@@ -552,6 +560,7 @@ section {
                 }
             }
             p {
+                font-size: 1rem;
                 line-height: 2rem;
                 padding-bottom: 1rem;
                 color: var(--color-grey-2);
@@ -565,7 +574,7 @@ section {
     display: flex;
     padding-top: 3.5rem;
     .left-contact {
-        flex: 2;
+        flex: 3;
         h4{
             margin-top: 1rem;
             font-size: 2rem;
@@ -573,6 +582,7 @@ section {
         }
         p {
             margin: 1rem 0;
+            font-size: 1rem;
             line-height: 2rem;
         }
         .contact-info {
@@ -606,8 +616,8 @@ section {
                 background-color: var(--color-grey-5);
                 cursor: pointer;
                 justify-content: center;
-                width: 50px;
-                height: 50px;
+                width: 45px;
+                height: 45px;
                 border-radius: 50%;
                 margin: 0 0.4rem;
                 transition: var(--transition);
@@ -621,7 +631,7 @@ section {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 1.4rem;
+                    font-size: 1.2rem;
                     transition: var(--transition);
                 }
             }
@@ -630,7 +640,7 @@ section {
 
     .right-contact {
         flex: 3;
-        margin-left: 2.7rem;
+        margin-left: 3.7rem;
         .input-control {
             margin: 1.5rem 0;
             input, textarea{
@@ -723,7 +733,7 @@ section {
             color: var(--color-secondary);
         }
         .bg-text {
-            font-size: 4.3rem;
+            font-size: 3.8rem;
             font-weight: 800;
             position: absolute;
             top: 50%;
